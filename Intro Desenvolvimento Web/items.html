@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-brs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="items.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="esq">
+            <div class="topo">
+                <label for="banco">Peças disponíveis</label>
+                <select name="banco" size="9" class="lista-banco">
+                    <option value="Capacitor">Capacitor</option>
+                    <option value="Resistor">Resistor</option>
+                    <option value="Protoboard">Protoboard</option>
+                    <option value="Fonte de Alimentação">Fonte de Alimentação</option>
+                    <option value="Multímetro">Multímetro</option>
+                    <option value="Ponta de Prova">Ponta de Prova</option>
+                    <option value="Fios">Fios</option>
+                    <option value="Microcontrolador">Microcontrolador</option>
+                    <option value="Transistor">Transistor</option>
+                    <option value="Diodo">Diodo</option>
+                </select>
+            </div>
+        <div class="bottom">
+            <div class="botaoSetaEsq">
+                <button class="setaEsq">>></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="dir">
+        <div class="topo">
+            <label for="aula">Escaladas</label>
+            <select name="aula" size="9" class="lista-aula">
+            </select>
+        </div>
+
+        <div class="bottom">
+            <div class="botaoSetaDir">
+                <button class="setaDir"><<</button>
+            </div>
+
+            <div class="clear">
+                <button class="limpar">Clear</button>
+            </div>
+
+            <div class="contador">
+                Itens escalados: <span class="quantidade">0</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="items.js"></script>
+</body>
+</body>
+</html>

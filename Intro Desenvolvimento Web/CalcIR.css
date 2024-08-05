@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: rgb(253, 202, 182);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    color: darkgreen;
+    margin-left: 36%;
+    margin-top: 7%;
+    justify-content: center;
+}
+
+input, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-top: 7em;
+    margin-bottom: 1em;
+    scale: 1.5;
+    margin-right: 12em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: darkgreen;
+    display: block;
+}
+
+fieldset .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="number"] {
+    padding: 0.2em;
+    border: 1px solid darkgreen;
+    box-shadow: 2px 2px 2px darkgreen;
+    display: block;
+}
+
+.titulo {
+    scale: 1.5;
+    margin-top: 7em;
+    margin-left: 15%;
+}
+
+.baixo {
+    margin-top: 5em;
+    margin-right: 20%;
+}

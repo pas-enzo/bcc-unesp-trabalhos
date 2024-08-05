@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SlideRGB.css">
+    
+    <title>Colorful wooooo</title>
+</head>
+<body>
+    <div class="texto">
+        <h1>Color Sliders!!!!!!!</h1>
+        <h4>Mude os valores dos sliders para mudar <br>a cor de fundo da caixa</h4>
+        <br>
+        <br>
+    </div>
+    
+    <div class="container" id="color-box"></div>
+    
+    <div class="container">
+        <div>
+            <div class="down">
+                <label for="red">R:</label>
+                <input type="range" min="0" max="255" value="128" class="slider" id="r">
+            </div>
+
+            <div class="down">
+                <label for="green">G:</label>
+                <input type="range" min="0" max="255" value="128" class="slider" id="g">
+            </div>
+
+            <div class="down">
+                <label for="blue">B:</label>
+                <input type="range" min="0" max="255" value="128" class="slider" id="b">
+            </div>
+        </div>
+    </div>
+
+    <script src="SlideRGB.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    border: 5px solid rgb(97, 7, 7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    scale: 1.5;
+    justify-content: center;
+}
+
+.slider {
+    border-radius: 10px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    color: bisque;
+    display: inline-block;
+    vertical-align: top;
+    scale: 1.050;
+}
+
+body {
+    margin-left: 37%;
+    margin-top: 5%;
+    background-color: rgb(53, 53, 53);
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+    scale: 1.5;
+    color: rgb(97, 7, 7);
+    margin-left: 17%;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | BCC</title>
+</head>
+<body>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(123, 57, 255), rgb(4, 2, 18));
+        }
+
+        .box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 17px;
+            border-radius: 20px;
+            width: 30%;
+            color: whitesmoke;
+        }
+
+        fieldset {
+            border: 3px solid rgb(80, 7, 125);
+            border-radius: 20px;
+            max-width: 100%;
+        }
+
+        legend {
+            border: 1px solid rgb(80, 7, 125);
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(80, 7, 125);
+            color: violet;
+        }
+
+        .inputBox {
+            position: relative;
+        }
+
+        .inputAlu {
+            background: none;
+            border: none;
+            border-bottom: 1px solid whitesmoke;
+            outline: none;
+            color: whitesmoke;
+            font-size: 15px;
+            width: 50%;
+            letter-spacing: 2px;
+        }
+
+        .labelInput {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+
+        .inputAlu:focus ~ .labelInput,
+        .inputAlu:valid ~ .labelInput {
+            top: -20px;
+            font-size: 12px;
+            color: rgb(80, 7, 125);
+        }
+
+        #niver {
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 15px;
+        }
+
+        #submit {
+            background-image: linear-gradient(to right, rgb(123, 57, 255), rgb(4, 2, 18));
+            width: 100%;
+            border: none;
+            padding: 15px;
+            color:  violet;
+            font-size:19px;
+            border-radius: 10px;
+        }
+
+        #anoES {
+            background-image: linear-gradient(to right, rgb(123, 57, 255), rgb(4, 2, 18));
+            width: 40%;
+            border: none;
+            padding: 3px;
+            color: violet;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        #submit:hover {
+            background-image: linear-gradient(to right, rgb(85, 37, 182), rgb(4, 2, 18));
+        }
+    </style>
+
+    <div class="box">
+        <form action="" id="myForm">
+            <fieldset>
+                <legend><b>Formulário Ex-Alunos BCC</b></legend>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputAlu" required>
+                    <label for="nome" class="labelInput">Nome Completo</label>
+                </div> 
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="apelido" id="apelido" class="inputAlu" required>
+                    <label for="apelido" class="labelInput">Apelido</label>
+                </div> 
+                <br><br>
+
+                    <label for="niver"><b>Data de Nascimento</b></label>
+                    <input type="date" name="niver" id="niver" required>
+
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputAlu" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div> 
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputAlu" required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div> 
+                <br><br>
+                <div>
+                    <label for="anoEntrou"><b>Ano de Ingresso</b></label>
+                    <select name="anoEntrou" id="anoES" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>1984</option>
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                    </select>
+                    
+                </div> 
+                <br><br>
+                <div>
+                    <label for="anoSaiu"><b>Ano de Formação</b></label>
+                    <select name="anoSaiu" id="anoES" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>1988</option>
+                        <option>1989</option>
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                    
+                </div> 
+                <br><br>
+                <div>
+                    <br>
+                    <label for="ondeAtua">Comente em qual área você está a atuar!</label>
+                    <br><br>
+                    <textarea name="ondeAtua" id="ondeAtua" cols="30" rows="10" style="resize: none;"></textarea>
+                    
+                </div>
+                <br><br>
+                <div>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="formulario.js"></script>
+</body>
+</html>

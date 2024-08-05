@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CalcIR.css">
+    <script src="CalcIR.js"></script>
+    <title>Taxify</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calculadora de Imposto de Renda Taxify</h1>
+        <h2>A calculadora oficial do curso do BCC!</h2>
+    </div>
+
+    <div>
+        <form>
+                <fieldset>
+                    <div class="campo">
+                        <label for="salario">Salário:</label>
+                        <input type="number" id="salario" name="salario"><br><br>
+                    
+                        <label for="dependentes">Número de dependentes:</label>
+                        <input type="number" id="dependentes" name="dependentes"><br><br>
+                    
+                        <button type="button" onclick="calcularImposto()">Calcular Imposto de Renda</button><br><br>
+        
+                        <label for="resultado">Imposto a pagar:</label>
+                        <input type="text" id="resultado" name="resultado" readonly>
+                    </div>
+                </fieldset>
+          </form>
+    </div>
+
+    <div class="baixo">
+        <p>Advertimos que deixar de pagar o imposto de renda (IR) de maneira adequada eh 
+            <i><ul><b>crime federal</b></ul></i> e tem como penalidade 
+            multas fiscais e cadeia.
+        </p>
+
+        <br>
+        <br>
+
+        <p>Atencao: calculo resultante em nulo significa <u>isencao</u> do imposto de renda anual</p>
+    </div>
+    
+</body>
+</html>
