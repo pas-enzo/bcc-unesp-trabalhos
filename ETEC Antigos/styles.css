@@ -1,0 +1,36 @@
+body {
+    background-image: url("crima_ensorarado.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: goldenrod;
+  }
+  
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-style: solid;
+    border-color:chocolate;
+    text-shadow: 2px 2px #e9830f;
+  }
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    border-style: solid;
+    border-color:chocolate;
+    text-shadow: 2px 2px #e9830f;
+}
+  
+p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    border-style: solid;
+    border-color:chocolate;
+    text-shadow: 2px 2px #e9830f;
+  }
